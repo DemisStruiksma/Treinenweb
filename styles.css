@@ -1,0 +1,458 @@
+* {box-sizing: border-box;}
+
+body {
+  text-align: center;
+  font-family: Regular;
+}
+
+.bg-custom {
+  background-color: #FFD456;
+}
+
+
+.navbar-brand {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 80px;
+}
+
+.form-inline .form-control {
+  width: 300px;
+}
+
+.form-control {
+  width: 300px;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 1000px;
+}
+
+
+.nav-item {
+  margin-top: 120px;
+  color: black;
+}
+
+
+a {
+  max-width: 100%;
+}
+
+div.wrapper {
+  max-width : 1350px;
+  margin: auto;
+}
+
+img.wrapper {
+  width: 100%;
+}
+
+.nav.icon {
+  display: none;
+}
+
+.nav-link.dropdown-toggle{
+  color: black;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.nav-link a:active {
+  background-color: grey
+}
+
+
+.dropdown-menu a {
+  text-align: left;
+  margin: 0;
+  color: black;
+}
+
+.dropdown-menu {
+  color: grey;
+}
+
+.dropdown-menu a:active{
+  color: black;
+}
+
+
+@font-face {
+    font-family: Regular;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(fonts/Lato-Bold.ttf);
+}
+
+
+
+.content {
+    max-width: 100%;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+
+.socials {
+  position: absolute;
+}
+
+.instagram {
+  position: absolute;
+  margin-top: -145px;
+  margin-left: 995px;
+}
+
+.facebook {
+  position: absolute;
+  margin-top: -145px;
+  margin-left: 1070px;
+}
+
+.twitter {
+  position: absolute;
+  margin-top:  -145px;
+  margin-left: 1145px;
+}
+
+.youtube {
+  position: absolute;
+  margin-top:  -145px;
+  margin-left: 1220px;
+}
+
+
+.actueelimg1 {
+  position: absolute;
+  margin-left: -575px;
+  margin-top: 100px;
+}
+
+.actueelimg2 {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+
+.imgkop1 {
+  background-color: #E0E1D3;
+  z-index: 1;
+  position: absolute;
+  margin-top: 362px;
+  margin-left: 100px;
+  padding-left: 18px;
+  padding-right: 30px;
+  text-align: center;
+  height: 50px;
+}
+
+.imgkop2 {
+  background-color: #E0E1D3;
+  z-index: 1;
+  position: absolute;
+  margin-top: -54px;
+  margin-left: 525px;
+  padding-left: 18px;
+  padding-right: 30px;
+  height: 50px;
+}
+
+
+.video {
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 1000px;
+}
+
+
+.videokop {
+  position: absolute;
+  margin-top: -36px;
+  text-align: left;
+  padding-top: 1px;
+  padding-left: 30px;
+  background-color: #FCC419;
+  width: 300px;
+  height: 40px;
+  color: black;
+}
+
+
+.vidnieuwskop {
+  margin-top: -5px;
+  background-color: #E0E1D3;
+  padding-left: 7px;
+  padding-right: 30px;
+  height: 50px;
+}
+
+
+.meer:hover {
+  background-color:  #FFD456;
+  transition: 0.5s ease-in;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thumb1 {
+  margin-top: 100px;
+  margin-left: -385px;
+}
+
+
+.col-xs-6 {
+  margin-top: -150px;
+}
+
+.article-title {
+  margin-top: -125px;
+  margin-left: 325px;
+  text-align: left;
+}
+
+.article-info {
+  margin-left: 325px;
+  text-align: left;
+
+}
+
+.article-writer {
+  position: absolute;
+  font-size: 11px;
+  margin-top: -50px;
+  margin-left: 635px;
+  text-align: right;
+}
+
+.article-info:after {
+      content: "";
+      display: block;
+      margin-left: 0px;
+      width: 100%;
+      padding-top: 30px;
+      border-bottom: 1px solid black;
+  }
+
+
+.responsivespace {
+  display: none;
+}
+
+
+.laatstenieuws {
+    position: relative;
+    margin-left: 1015px;
+    margin-top: -627px;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 300px;
+    height: 220px;
+  }
+
+.laatstenieuwsKop {
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 30px;
+    background-color: #FCC419;
+    width: 300px;
+    height: 45px;
+    color: black;
+    margin-top: -25px;
+    margin-left: -30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.nieuwskop {
+  text-align: left;
+}
+
+.meestgelezen {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 1015px;
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color: white;
+    width: 300px;
+    height: 220px;
+  }
+
+.meestgelezenKop {
+    text-align: left;
+    padding-top: -5px;
+    padding-left: 30px;
+    background-color: #FCC419;
+    width: 300px;
+    height: 45px;
+    color: black;
+    margin-top: -25px;
+    margin-left: -30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+footer {
+  max-width: 100%;
+  text-align: center;
+  vertical-align: middle;
+	background: #EDEFF1;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+
+
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 600px) {
+.searchbar {
+  position: relative;
+  margin-top: 2px;
+  margin-left: 18px;
+  display: block;
+}
+
+.socials {
+  display: none;
+}
+
+.video {
+  position: relative;
+  margin-top: 200px;
+  margin-left: -0px;
+}
+
+.videokop {
+  position: absolute;
+  margin-left: 37px;
+  margin-top: -40px;
+  width: 301px;
+  max-width: 100%;
+}
+
+.vidnieuwskop {
+  width: 301px;
+  margin-left: 37px;
+}
+
+.article-info {
+    display: none;
+  }
+
+
+.col-xs-6 .article-writer {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 300px;
+  }
+
+.col-xs-6 .article-title {
+    position: absolute;
+    margin-left: 300px;
+    font-size: 24px;
+
+  }
+
+
+.col-xs-6 .article-info {
+    padding-right: 5px;
+
+  }
+
+
+.logo {
+    position: absolute;
+    display: none;
+    margin-top: -25px;
+    margin-left: 25px;
+    margin-right: 0;
+    width: 80%;
+  }
+
+
+.nav-link {
+  text-align: left;
+  line-height: 5px;
+}
+
+/* Content */
+.col-xs-6 {
+  margin-left: -90px;
+  padding: 5;
+}
+
+
+.col-xs-4 {
+  margin-top: 800px;
+  margin-left: -980px;
+  }
+
+.laatstenieuwsKop {
+    width: 340px;
+  }
+
+
+.meestgelezenKop {
+    width: 340px;
+  }
+
+
+.actueelimg1 {
+    margin-left: -175px;
+    width: 350px;
+    height: 250px;
+
+  }
+
+
+.imgkop1 {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 13px;
+  font-size: 24px;
+  width: 349px;
+  padding-top: 8px;
+  }
+
+
+.actueelimg2 {
+  margin-left: -0px;
+  width: 350px;
+  height: 250px;
+    margin-top: 500px;
+  }
+
+
+.imgkop2 {
+    margin-left: 13px;
+    font-size: 24px;
+    width: 349px;
+    padding-top: 8px;
+  }
+
+  .thumb1 {
+    margin-left: 130px;
+  }
+
+  .col-xs-6 .article-writer {
+  margin-top: -45px;
+  }
+
+}
+
+
+
+/* End Responsive */
